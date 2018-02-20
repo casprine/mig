@@ -1,0 +1,30 @@
+{
+  "name": "mig-next",
+  "version": "1.0.0",
+  "description": "Static site generator for Made In Ghana site",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "0.18.0",
+    "cheerio": "1.0.0-rc.2",
+    "markdown-it": "8.4.1",
+    "next": "5.0.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "uuid": "3.2.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "build:static": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oddoye-david/oddoye.com.git"
+  },
+  "author": "David Oddoye <oddoyedvaid@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oddoye-david/oddoye.com/issues"
+  },
+  "homepage": "https://github.com/oddoye-david/oddoye.com#readme"
+}
