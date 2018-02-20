@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/semantic.min.css">
+    <link rel="stylesheet" href="./src/fonts/fonts.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="shortcut icon" href="http://www.devcongress.org/assets/favicon-f5bf27abf028cf45bb89a1ad253eaa4ce7c5a915b22be65b4839ce6714cf9235.ico">
+    <title>Made In Ghana</title>
+</head>
+<body>
+    
+<div>
+    <div class="App">
+        <header class="App-header">
+            <h1 class="App-title">Made In Ghana</h1>
+
+            <div class="intro">
+                A curated list of awesome tools and projects built by Ghanaians .
+            </div>
+        </header>
+
+        <div class="projects">
+            <h1> Explore .</h1>                
+        <div class="ui three column grid ">
+        <div class="row">
+        <div class="column">
+<div class="oss-card">
+    <div class="header">
+        <div class="pull-left">${param.name}</div>
+        <img src="${param.img}" class="logo pull-right" />
+    </div>
+    <hr class="colors" />
+    <div class="creator"> by
+        <a href="${param.dev}" class="creator-id">
+            <span class=""> ${param.devname}</span>
+        </a>
+    </div>
+    <div class="about">
+        <p>${param.about}</p>
+        <div class="link">
+            <a href="${param.github}" class="">
+                <i class="ion ion-social-github"></i>
+            </a>
+        </div>
+    </div>
+</div>
+        </div>    
+    </div>
+   </div>
+
+   <img src="./loader.gif" alt="" id="loader">
+</div>
+</div>
+
+
+
+
+</body>
+<script src="./src/js/index.js"></script>
+</html>
