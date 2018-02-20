@@ -36,9 +36,12 @@ export default class Index extends React.Component {
                     A curated list of awesome tools and projects built by Ghanaians .
                 </div>
           </header>
-          <div className='ui three column grid '>
-            <div className='row'>
-              <Projects projects={projects} />
+          <div className='projects'>
+            <h1> Explore .</h1>
+            <div className='ui three column grid '>
+              <div className='row'>
+                <Projects projects={projects} />
+              </div>
             </div>
           </div>
         </div>

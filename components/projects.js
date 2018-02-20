@@ -1,15 +1,15 @@
 const Projects = ({ projects }) => {
-  return projects.map(({title, logo, author, description, link, id}) => {
+  return projects.map(({title, author, description, link, id}) => {
     return <div className='oss-card column' key={id}>
       <div className='header'>
         <div className='pull-left'> {title}
         </div>
-        <img src={logo} className='logo pull-right' />
+        <img src={author.avatar} className='logo pull-right' />
       </div>
       <hr className='colors' />
       <div className='creator'>
-        by <a href={author.handle} className='creator-id'>
-          <span className=''>{author.name} </span>
+        by <a href={author.url} className='creator-id'>
+          <span className=''>{author.handle} </span>
         </a>
       </div>
       <div className='about'>
