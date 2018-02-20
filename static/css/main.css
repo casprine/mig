@@ -48,7 +48,10 @@
   max-height: 250px !important;
   min-height: 210px !important;
   margin: 20px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 20px !important;
+  margin-left: 20px !important;
+}
   .oss-card .header {
     display: flex;
     justify-content: space-around;
