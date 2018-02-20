@@ -35,6 +35,12 @@ export default class Index extends React.Component {
             <div className='intro'>
                     A curated list of awesome tools and projects built by Ghanaians .
                 </div>
+
+            <div className="searchBox">
+              <input type="text" placeholder="Search"/>
+                <button> Go </button>
+              </div>
+   
           </header>
           <div className='projects'>
             <h1> Explore .</h1>

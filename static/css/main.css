@@ -11,7 +11,7 @@
   .App .App-header {
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-    height: 400px;
+    height: 320px;
     font-family: 'webfontregular' !important;
     border-bottom: 10px double white;
     padding: 20px;
@@ -107,5 +107,43 @@
 
 .hide {
   display: none; }
+
+.searchBox {
+  margin-top: 30px;
+}
+
+.searchBox input {
+  width: 500px;
+  height: 50px;
+  border: 0px;
+  padding: 10px;
+  outline: none;
+  text-indent: 10px;
+  color: grey;
+  font-family: 'Ubuntu', sans-serif;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 6px;
+  position: relative;
+}
+
+.searchBox button {
+  position: absolute;
+  height: 46px;
+  width: 51px;
+  border: 0px;
+  color: white;
+  margin-left: -53px;
+  margin-top: 2px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 5px;
+  background-color: #7085B6;
+  cursor: pointer;
+  outline: none;
+}
+
 
 /*# sourceMappingURL=main.css.map */
