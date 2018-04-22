@@ -2,7 +2,7 @@ Arguments:
   /home/casprine/.nvm/versions/node/v8.9.4/bin/node /home/casprine/.yarn/bin/yarn.js dev
 
 PATH: 
-  /home/casprine/.yarn/bin:/home/casprine/.config/yarn/global/node_modules/.bin:/home/casprine/.nvm/versions/node/v8.9.4/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+  /home/casprine/.yarn/bin:/home/casprine/.config/yarn/global/node_modules/.bin:/home/casprine/.yarn/bin:/home/casprine/.config/yarn/global/node_modules/.bin:/home/casprine/.nvm/versions/node/v8.9.4/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
 
 Yarn version: 
   1.5.1
@@ -37,7 +37,7 @@ npm manifest:
       "type": "git",
       "url": "git+https://github.com/oddoye-david/oddoye.com.git"
     },
-    "author": "David Oddoye <oddoyedvaid@gmail.com>",
+    "authors": "David Oddoye <oddoyedvaid@gmail.com> , Casprine <casprine.001@gmail.com>",
     "license": "MIT",
     "bugs": {
       "url": "https://github.com/oddoye-david/oddoye.com/issues"
@@ -4206,10 +4206,10 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit signal: SIGINT
+  Exit code: 1
   Command: sh
   Arguments: -c next
-  Directory: /home/casprine/Desktop/Projects/2018/mig
+  Directory: /home/casprine/Documents/Projects/2018/mig
   Output:
   
       at ProcessTermError.MessageError (/home/casprine/.yarn/lib/cli.js:186:110)
