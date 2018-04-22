@@ -22,7 +22,7 @@ export default class Index extends React.Component {
         <meta http-equiv='X-UA-Compatible' content='ie=edge' />
         <meta name='theme-color' content='#000000' />
         <link rel='stylesheet' href='static/css/main.css' />
-        <link rel='stylesheet' href='https://cdn.rawgit.com/Casprine/mig/c50d7523/static/css/semantic.min.css'/>
+        {/* <link rel='stylesheet' href='https://cdn.rawgit.com/Casprine/mig/c50d7523/static/css/semantic.min.css'/> */}
         <link rel='stylesheet' href='static/fonts/fonts.css' />
         <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' />
         <link rel='shortcut icon' href='http://www.devcongress.org/assets/favicon-f5bf27abf028cf45bb89a1ad253eaa4ce7c5a915b22be65b4839ce6714cf9235.ico' />
@@ -36,20 +36,18 @@ export default class Index extends React.Component {
                     A curated list of awesome tools and projects built by Ghanaians .
                 </div>
 
-            <div className="searchBox">
+            {/* <div className="searchBox">
               <input type="text" placeholder="Search"/>
                 <button> Go </button>
-              </div>
+              </div> */}
    
           </header>
           <div className='projects'>
             <h1> Explore .</h1>
-            <div className='ui three column grid '>
               <div className='row'>
                 <Projects projects={projects} />
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
