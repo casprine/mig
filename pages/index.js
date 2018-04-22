@@ -31,19 +31,21 @@ export default class Index extends React.Component {
       <div>
         <div className='App'>
           <header className='App-header'>
-            <h1 className='App-title'>Made In Ghana</h1>
-            <div className='intro'>
-                    A curated list of awesome tools and projects built by Ghanaians .
+          <div className="data">
+              <h1 className='App-title'>Made In Ghana</h1>
+              <div className='intro'>
+                A curated list of awesome tools and projects built by Ghanaians .
                 </div>
 
-            {/* <div className="searchBox">
-              <input type="text" placeholder="Search"/>
+              {/* <div className="searchBox">
+                <input type="text" placeholder="Search" />
                 <button> Go </button>
               </div> */}
-   
+
+          </div>
           </header>
           <div className='projects'>
-            <h1> Explore .</h1>
+
               <div className='row'>
                 <Projects projects={projects} />
               </div>

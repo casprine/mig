@@ -7,14 +7,14 @@ const Projects = ({ projects }) => {
       </div>
       <hr className='colors' />
       <div className='creator'>
-        by <a href={author.url} className='creator-id'>
+        by <a href={author.url} className='creator-id' target="_blank">
           <span className="author">{author.handle} </span>
         </a>
       </div>
       <div className='about'>
         <p>{description}</p>
         <div className='link'>
-          <a href={link}>
+          <a href={link} targer="_blank">
             <i className='ion ion-social-github' />
           </a>
         </div>

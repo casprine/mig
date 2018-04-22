@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/oddoye-david/oddoye.com.git"
   },
-  "author": "David Oddoye <oddoyedvaid@gmail.com>",
+  "authors": "David Oddoye <oddoyedvaid@gmail.com> , Casprine <casprine.001@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/oddoye-david/oddoye.com/issues"
